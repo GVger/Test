@@ -1,0 +1,286 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\List.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\idr_main.ico"
+IDI_ICON1               ICON    DISCARDABLE     "res\\icon1.ico"
+IDI_ICON2               ICON    DISCARDABLE     "res\\icon2.ico"
+IDI_ICON3               ICON    DISCARDABLE     "res\\icon3.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_LIST_DIALOG DIALOGEX 0, 0, 514, 373
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "通讯录"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "导入通讯录",IDC_OPEN,7,7,88,34
+    PUSHBUTTON      "导出通讯录",IDC_SAVE,7,65,88,34
+    PUSHBUTTON      "增加新联系人",IDC_ADD,7,123,88,34
+    PUSHBUTTON      "查找",IDC_SEARCH,129,7,88,34
+    PUSHBUTTON      "修改",IDC_CHANGE,7,181,88,34
+    PUSHBUTTON      "退出",IDC_EXIT,129,65,88,34
+    CONTROL         "",IDC_SEPARATOR,"Static",SS_BLACKFRAME | SS_SUNKEN | 
+                    NOT WS_VISIBLE,261,7,1,359
+    GROUPBOX        "工作区：",IDC_STATIC,261,7,243,359
+    LISTBOX         IDC_CONTENT,269,22,227,339,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "作者：软1郭健伟",IDC_ABOUT,7,355,61,11,SS_NOTIFY
+END
+
+IDD_MODIBOX DIALOG DISCARDABLE  0, 0, 245, 85
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "修改"
+FONT 10, "System"
+BEGIN
+    GROUPBOX        "修改内容",IDC_STATIC,7,7,150,71
+    LTEXT           "姓名：",IDC_STATIC,11,24,38,15
+    LTEXT           "电话号码：",IDC_STATIC,11,53,40,15
+    EDITTEXT        IDC_NAME,54,22,86,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PHONE,54,50,86,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "确认修改",IDC_OK,161,14,74,17
+    PUSHBUTTON      "取消",IDC_CANCEL,174,40,49,13
+    GROUPBOX        "",IDC_STATIC,159,7,79,54
+END
+
+IDD_ADD DIALOG DISCARDABLE  0, 0, 252, 88
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "增加新联系人"
+FONT 10, "System"
+BEGIN
+    GROUPBOX        "增加新联系人",IDC_STATIC,7,7,157,74
+    LTEXT           "姓名：",IDC_STATIC,10,27,25,9
+    LTEXT           "电话号码：",IDC_STATIC,10,51,40,10
+    EDITTEXT        IDC_NAME,53,24,86,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PHONE,53,49,86,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "确认添加",IDC_OK,168,14,74,17
+    PUSHBUTTON      "取消",IDC_CANCEL,181,40,49,13
+    GROUPBOX        "",IDC_STATIC,166,7,79,54
+END
+
+IDD_SEARCH DIALOG DISCARDABLE  0, 0, 164, 85
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "查找"
+FONT 10, "System"
+BEGIN
+    GROUPBOX        "查找",IDC_STATIC,7,7,150,38
+    LTEXT           "姓名：",IDC_STATIC,11,24,38,15
+    EDITTEXT        IDC_NAME,54,22,86,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "确认查找",IDC_OK,23,50,44,17
+    PUSHBUTTON      "取消",IDC_CANCEL,96,50,44,17
+    GROUPBOX        "",IDC_STATIC,15,42,132,30
+END
+
+IDD_ABOUT DIALOGEX 0, 0, 207, 65
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_STATICEDGE
+CAPTION "关于"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         142,IDC_STATIC,"Static",SS_BITMAP | SS_REALSIZEIMAGE | 
+                    SS_SUNKEN,7,7,51,36
+    LTEXT           "通讯录1.2版",IDC_STATIC,81,13,45,9
+    LTEXT           "版权所有◎郭健伟",IDC_STATIC,81,33,77,10
+    PUSHBUTTON      "确认",IDOK,148,7,52,14
+    LTEXT           "软件1班",IDC_STATIC,168,48,32,10
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "List Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "List\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2014\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "List.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "List 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_LIST_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 366
+    END
+
+    IDD_MODIBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 238
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 78
+    END
+
+    IDD_ADD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 245
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 81
+    END
+
+    IDD_SEARCH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 157
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 78
+    END
+
+    IDD_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 58
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_ABOUT               BITMAP  DISCARDABLE     "res\\about.bmp"
+IDB_BGROUND             BITMAP  DISCARDABLE     "res\\background.bmp"
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\List.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
