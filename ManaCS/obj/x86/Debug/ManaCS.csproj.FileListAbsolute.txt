@@ -1,0 +1,15 @@
+F:\工作区\CSharp\ManaCS\ManaCS\bin\Debug\ManaCS.exe
+F:\工作区\CSharp\ManaCS\ManaCS\bin\Debug\ManaCS.pdb
+F:\工作区\CSharp\ManaCS\ManaCS\obj\x86\Debug\ManaCS.Properties.Resources.resources
+F:\工作区\CSharp\ManaCS\ManaCS\obj\x86\Debug\ManaCS.csproj.GenerateResource.Cache
+F:\工作区\CSharp\ManaCS\ManaCS\obj\x86\Debug\ManaCS.exe
+F:\工作区\CSharp\ManaCS\ManaCS\obj\x86\Debug\ManaCS.pdb
+F:\工作区\CSharp\ManaCS\ManaCS\obj\x86\Debug\ManaCS.LoginWindow.resources
+F:\工作区\CSharp\ManaCS\ManaCS\obj\x86\Debug\ManaCS.MainWindow.resources
+F:\工作区\CSharp\ManaCS\ManaCS\obj\x86\Debug\ManaCS.csprojResolveAssemblyReference.cache
+F:\工作区\CSharp\ManaCS\ManaCS\obj\x86\Debug\ManaCS.Abuot.resources
+F:\工作区\CSharp\ManaCS\ManaCS\obj\x86\Debug\ManaCS.RegisterWindow.resources
+F:\工作区\CSharp\ManaCS\ManaCS\obj\x86\Debug\ManaCS.ModifyPswWindow.resources
+F:\工作区\CSharp\ManaCS\ManaCS\obj\x86\Debug\ManaCS.AddWindow.resources
+F:\工作区\CSharp\ManaCS\ManaCS\obj\x86\Debug\ManaCS.QueryWindow.resources
+F:\工作区\CSharp\ManaCS\ManaCS\obj\x86\Debug\ManaCS.csproj.ResolveComReference.cache
