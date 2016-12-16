@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MP3Player</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="copyright">Copyright © 2015 Vger All Rights Reserved.</string>
+
+    <string name="main_def_singer_description">Singer</string>
+
+    <string name="main_def_tv_song_name">Song Name</string>
+
+    <string name="main_def_tv_singer">Singer</string>
+
+    <string name="exit_application">Exit Application</string>
+
+    <string name="change_skin">Change Skin</string>
+</resources>
